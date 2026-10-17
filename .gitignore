@@ -19,3 +19,31 @@ venv/
 # Model checkpoints
 *.h5
 *.keras
+# BERT Model Checkpoints
+Fine-tuning-BERT/**/checkpoint-*/
+Fine-tuning-BERT/**/bert_output*/
+Fine-tuning-BERT/**/bert_partial_output*/
+
+# Model Weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Training Logs
+Fine-tuning-BERT/**/logs/
+Fine-tuning-BERT/**/runs/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+# BERT checkpoints and outputs
+Fine-tuning-BERT/**/checkpoint-*/
+Fine-tuning-BERT/**/bert_output*/
+Fine-tuning-BERT/**/logs/
+Fine-tuning-BERT/**/runs/
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
